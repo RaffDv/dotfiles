@@ -1,0 +1,36 @@
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+opacity =0.9 
+
+[window.dimensions]
+columns = 300
+lines = 80
+
+[window.padding]
+x = 10
+y = 10
+
+[font]
+size =10 
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font"
+style = "Bold Italic"

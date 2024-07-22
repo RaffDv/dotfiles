@@ -1,0 +1,7 @@
+{
+  "fields": {
+    "prefix": "fields",
+    "body": "id String @id @default(uuid()) \n createdAt Datetime @default(now()) \n updatedAt Datetime @updatedAt \n $1",
+    "description": "Create a default fields for prisma schema"
+  }
+}
